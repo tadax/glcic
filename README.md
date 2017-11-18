@@ -53,9 +53,7 @@ with TensorFlow.
 
 ## I. Prepare the training data
 
-Put the images for training the "data/images" directory.
-
-Convert images to npy format.
+Put the images for training the "data/images" directory and convert images to npy format.
 
 ```
 $ cd data
@@ -75,13 +73,13 @@ $ python train.py
 ```
 
 
-# Supplementation
+# Approach
 
 This implementation uses 128x128 images as training data unlike paper.
 So the both discriminators have 1 conv layer fewer;
 that is, the local and global discriminator have 4 and 5 conv layers, respectively.
 
-I trained the GLCIC model using 5434 face images collected from the Internet.
+I trained the GLCIC model using 5,434 face images collected from the Internet.
 The paper says the training should be split into three phases, but I skipped the second step.
 The completion network is trained with the MSE loss for 100 interatinos;
 then both the completion network and discriminator are trained to reach the total of 400 iterations.
