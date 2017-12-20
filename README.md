@@ -62,7 +62,7 @@ $ python to_npy.py
 
 When you use the face images for training, it is recommended that you align the face landmarks with dlib before training.
 If you have no time for preprocessing, utilize [mirror padding](
-https://github.com/tadax/image_processor/tree/master/mirror_padding).
+https://github.com/tadax/cvtools/tree/master/face_alignment/mirror_padding).
 
 
 ## II. Train the GLCIC model
