@@ -85,3 +85,10 @@ The completion network is trained with the MSE loss for 100 interatinos;
 then both the completion network and discriminator are trained to reach the total of 400 iterations.
 The entire training procedure takes roughly 16 hours on a single machine equipped with a GTX 1070.
 
+
+# Future Work
+
+![](results/marginal.jpg)
+
+The result is not good when marginal area is missing.
+
