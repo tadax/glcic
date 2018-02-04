@@ -73,7 +73,7 @@ $ python train.py
 ```
 
 You can download the trained model file: [glcic_model.tar.gz](
-https://drive.google.com/open?id=11SUxAqjUT106_NPoBjcgciYpwa-T2Kbb)
+https://drive.google.com/open?id=1jvP2czv_gX8Q1l0tUPNWLV8HLacK6n_Q)
 
 
 # Approach
